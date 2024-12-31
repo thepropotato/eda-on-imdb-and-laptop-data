@@ -1,74 +1,68 @@
-# Analysis of IMDB TOP 250 MOVIES DATASET (1955-2022) and LAPTOP DATASET
+# Analysis of IMDB Top 250 Movies Dataset (1955-2022) and Laptop Dataset
 
-FEATURES OF THE IMDB TOP 250 MOVIES DATASET :
+## IMDB Top 250 Movies Dataset
 
-TITLE [0]
-YEAR [1]
-RATING [2] 
-REVIEWS [3]
- POPULARITY [4]
-CAST [5]
-DIRECTOR [6]
-GENRE [7]
-LANGUAGE [8]
+### Features
+1. **Title**
+2. **Year**
+3. **Rating**
+4. **Reviews**
+5. **Popularity**
+6. **Cast**
+7. **Director**
+8. **Genre**
+9. **Language**
 
-
-ANALYSIS ON THE IMDB TOP 250 MOVIES DATASET :
-
-1. Percentage of films per year
-2. Actor films count
+### Analysis Objectives
+1. Percentage of films released per year
+2. Actor filmography count
 3. Most popular genre
-4. Director films count
-5. Status and count of films of a language (hit/flop)
-6. Most made genre
+4. Director filmography count
+5. Film status and count by language (hit/flop)
+6. Most frequently made genre
 7. Most successful director
 8. Average views per year
-9. No.Of movies of a language per year
-10. Most watched film in an year
-11. Most made genre in an year
-12. Most watched language in an year
+9. Number of movies in each language per year
+10. Most watched film of the year
+11. Most frequently made genre of the year
+12. Most watched language of the year
 
-Analysis on this dataset also includes a GUI (Graphical User Interface), that is designed to list the movies a user wanted based on his requirements such as language of the film, year of release and its genre.
+### Additional Features
+- **GUI Functionality:** A user-friendly interface to list movies based on user preferences such as language, release year, and genre.
 
+---
 
-FEATURES OF THE LAPTOP DATASET :
+## Laptop Dataset
 
-Company [0]
-TypeName [1]
-Inches [2]
-Screen Resolution [3]
-Cpu [4]
-Ram [5]
-Memory [6]
-Gpu [7]
-OpSys [8]
-Weight [9]
-Price [10]
-Year [11]
-No. of sales [12]
+### Features
+1. **Company**
+2. **TypeName**
+3. **Inches** (Screen Size)
+4. **Screen Resolution**
+5. **CPU**
+6. **RAM**
+7. **Memory** (Storage)
+8. **GPU**
+9. **Operating System (OpSys)**
+10. **Weight**
+11. **Price**
+12. **Year**
+13. **Number of Sales**
 
+### Analysis Objectives
+1. Estimate the next revenue of a company
+2. Identify the model with the highest sales within a brand
+3. Estimate the cost of individual laptop components
+4. Determine the maximum and minimum cost of a product from a brand in a given year
+5. Calculate the average cost for each screen resolution type for a company
+6. Find the best choice for an investor
+7. Analyze core statistics for the number of sales by company
+8. Estimate the current revenue of an operating system provider
 
-ANALYSIS ON THE LAPTOP DATASET :
+### Additional Features
+- **GUI Functionality:** A predictive interface to estimate laptop prices based on user-defined specifications such as screen size, resolution, CPU, GPU, RAM, ROM, OS, brand, and more.
 
-1. Estimating the next revenue of a company
-2. Highest no.Of sales of a model in a brand
-3. Estimating the costs of each component of a laptop
-4. Max and min cost  of a product of a brand in an  year
-5. Average cost for each resolution type of a company
-6. Finding the best choice for an investor
-7. Core stats for no.Of sales of a company
-8. Estimating the current revenue of an os provider
+---
 
-Analysis on this dataset also includes a GUI (Graphical User Interface), that is designed to predict the price of the laptop a user wanted based on his requirements such as Screen size, Screen resolution, CPU, GPU, RAM, ROM, OS and brand etc.
-
-
-
-
-
-
-
-
-
-
-
+This comprehensive analysis provides insights into both datasets, offering detailed metrics and user-friendly tools to explore the data effectively.
 
